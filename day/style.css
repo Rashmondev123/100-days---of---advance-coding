@@ -1,0 +1,124 @@
+*{
+
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #1f005c, #5b0060, #870160 , #ac255e, #ca485c, #e16b5c, #f39060,#ffb568);
+
+    /*A DEEP BACKGROUND*/
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    /* Handling Centering*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.signup-card {
+    width: 90%;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+
+    /*Glass morphism */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 80px 32px 0 rgba(0, 0, 0, 0.3);/*Soft Shadow*/
+    border: 1px solid rgba(255, 255, 255, 0.3);/*Light border  for definition*/
+
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter:blur(10px);
+
+    transition: all 0.3s ease;
+}
+
+.signup-card:hover{
+    box-shadow: 0 16px 64px 0 rgba(255, 255, 255, 0.2);
+}
+
+/*Typography & Layout */
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.input-group{
+    margin-bottom: 20px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    box-sizing: border-box;
+    
+
+    /*Subtle glassshiii for inputs*/
+
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+input:focus{
+    outline: none;
+    border-color: #cfd8cf;
+    box-shadow: 0 0 10px rgba(94, 255, 94, 0.5);
+    
+}
+.submit-btn{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #5eff5e;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+
+}
+
+.submit-btn:hover{
+    background: #4bff4b;
+    transform: translateY(-2px);
+}
+
+.login-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.login-link a{
+    color: #5eff5e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
